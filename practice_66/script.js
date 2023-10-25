@@ -151,19 +151,29 @@
 // console.log(sett.has(user));
 
 
-let messages = [
-    {text: 'hello', from: 'John'},
-    {text: 'world', from: 'Alex'},
-    {text: '...blabla', from: 'Mia'},
-];
+// let messages = [
+//     {text: 'hello', from: 'John'},
+//     {text: 'world', from: 'Alex'},
+//     {text: '...blabla', from: 'Mia'},
+// ];
 
-let readMessages = new WeakSet();
+// let readMessages = new WeakSet();
 
-readMessages.add(messages[0]);
-// readMessages.add(messages[1]);
+// readMessages.add(messages[0]);
+// // readMessages.add(messages[1]);
 
-console.log(readMessages.has(messages[0]));
+// console.log(readMessages.has(messages[0]));
 
-messages.shift();
+// messages.shift();
 
-console.log(readMessages.has(messages[0]));
+// console.log(readMessages.has(messages[0]));
+
+
+// -------------- Date ----------------
+
+const now = new Date();
+// const now = new Date('2023-05-01');
+
+console.log(now);
+console.log(now.getHours()); //
+console.log(now.getUTCHours()); //.getHours - 3 (for Russia)
