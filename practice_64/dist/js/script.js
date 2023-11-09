@@ -194,30 +194,26 @@ window.addEventListener('DOMContentLoaded', () => {
                 display: block;
                 margin: 0 auto;
             `;
-      // form.append(statusMessage);
       form.insertAdjacentElement('afterend', statusMessage);
-      const request = new XMLHttpRequest();
-      request.open('POST', 'server.php');
-      request.setRequestHeader('Content-type', 'application/json');
-      // request.setRequestHeader('Content-type', 'multipart/form-data');
       const formData = new FormData(form);
       const object = {};
       formData.forEach((value, key) => {
         object[key] = value;
       });
-      const json = JSON.stringify(object);
-
-      // request.send(formData);
-      request.send(json);
-      request.addEventListener('load', () => {
-        if (request.status === 200) {
-          console.log(request.response);
-          showTanksModal(message.success);
-          form.reset();
-          statusMessage.remove();
-        } else {
-          showTanksModal(message.failure);
-        }
+      fetch('server.php', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json'
+        },
+        body: JSON.stringify(object)
+      }).then(data => data.text()).then(data => {
+        console.log(data);
+        showTanksModal(message.success);
+        statusMessage.remove();
+      }).catch(() => {
+        showTanksModal(message.failure);
+      }).finally(() => {
+        form.reset();
       });
     });
   }
