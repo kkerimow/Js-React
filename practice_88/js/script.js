@@ -50,27 +50,8 @@
 //     .reduce((sum, current) => `${sum}, ${current}`);
 // console.log(newArr);
 
-const films = [
-    {
-        name: 'Titanic',
-        rating: 9
-    },
-    {
-        name: 'Die hard 5',
-        rating: 5
-    },
-    {
-        name: 'Matrix',
-        rating: 8
-    },
-    {
-        name: 'Some bad film',
-        rating: 4
-    }
-];
 
-const newFilms = films.map(film => film.id = 1);
-console.log(newFilms);
 
-// const newArr = films.map(item => item.id = 1)
-// console.log(newArr);
+// ------------------ 89 -------------------------
+
+
