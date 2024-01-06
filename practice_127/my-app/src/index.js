@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { Button } from './App';
 import styled from 'styled-components';
-import BootstrapTest from './BootstrapTest';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +19,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
         <App />
-        <BigButton href='https://www.google.com' target='_blank' as="a">Отправить отчет</BigButton>
-        <BootstrapTest/>
+        <BigButton as="a">Отправить отчет</BigButton>
     </>
 );
