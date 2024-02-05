@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5949eff8.css",
-    "main.js": "/static/js/main.10ecb2fa.js",
+    "main.css": "/static/css/main.d405f783.css",
+    "main.js": "/static/js/main.5a792c44.js",
+    "static/js/20.8452f53f.chunk.js": "/static/js/20.8452f53f.chunk.js",
+    "static/css/675.2b18430f.chunk.css": "/static/css/675.2b18430f.chunk.css",
+    "static/js/675.60de15a2.chunk.js": "/static/js/675.60de15a2.chunk.js",
+    "static/css/907.81df909f.chunk.css": "/static/css/907.81df909f.chunk.css",
+    "static/js/907.258b7f3a.chunk.js": "/static/js/907.258b7f3a.chunk.js",
+    "static/css/716.5764a751.chunk.css": "/static/css/716.5764a751.chunk.css",
+    "static/js/716.fbeb4844.chunk.js": "/static/js/716.fbeb4844.chunk.js",
     "static/media/vision.png": "/static/media/vision.067d4ae1936d64a577ce.png",
     "static/media/mjolnir.png": "/static/media/mjolnir.61f31e1809f12183a524.png",
+    "static/media/Avengers.png": "/static/media/Avengers.4065c8f9c94e3d8b039a.png",
     "static/media/error.gif": "/static/media/error.42292aa12b6bc303ce99.gif",
+    "static/media/Avengers_logo.png": "/static/media/Avengers_logo.9eaf219344d83362e830.png",
     "index.html": "/index.html",
-    "main.5949eff8.css.map": "/static/css/main.5949eff8.css.map",
-    "main.10ecb2fa.js.map": "/static/js/main.10ecb2fa.js.map"
+    "main.d405f783.css.map": "/static/css/main.d405f783.css.map",
+    "main.5a792c44.js.map": "/static/js/main.5a792c44.js.map",
+    "20.8452f53f.chunk.js.map": "/static/js/20.8452f53f.chunk.js.map",
+    "675.2b18430f.chunk.css.map": "/static/css/675.2b18430f.chunk.css.map",
+    "675.60de15a2.chunk.js.map": "/static/js/675.60de15a2.chunk.js.map",
+    "907.81df909f.chunk.css.map": "/static/css/907.81df909f.chunk.css.map",
+    "907.258b7f3a.chunk.js.map": "/static/js/907.258b7f3a.chunk.js.map",
+    "716.5764a751.chunk.css.map": "/static/css/716.5764a751.chunk.css.map",
+    "716.fbeb4844.chunk.js.map": "/static/js/716.fbeb4844.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5949eff8.css",
-    "static/js/main.10ecb2fa.js"
+    "static/css/main.d405f783.css",
+    "static/js/main.5a792c44.js"
   ]
 }
